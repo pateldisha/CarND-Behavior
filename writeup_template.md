@@ -62,7 +62,7 @@ My model consists of  5 convolution neural networks with 5x5 and 3x3 filter size
 
 Below is the details of the Model:
 
-![model_summary.PNG](attachment:model_summary.PNG)
+![](model_summary.PNG)
 
 
 My model is based on NVIDIA model which is suitable to this project and then i tuned few parameters and added extra layers. 
@@ -108,13 +108,13 @@ After the above, car was driving well autonomously around the track without leav
 
 The final model architecture (model.py lines ) consisted of a convolution neural network with the following layers.
 
-![model_summary.PNG](attachment:model_summary.PNG)
+![](model_summary.PNG)
 
 #### 3. Creation of the Training Set & Training Process
 
 To capture good driving behavior, I recorded two laps on track one using center lane driving. Here is an example image of center lane driving:
 
-![center.jpg](attachment:center.jpg)
+![](center.jpg)
 
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to take turns accordingly during the curves. These images show what a recovery looks like :
 
